@@ -9,3 +9,12 @@ console.log(myloc);
 
 let userLoggedIn = true;
 console.log(userLoggedIn);
+
+let ballayBallay = "Shawa Shawa";
+console.log(ballayBallay);
+
+var abcHehe = "Yeh ik random variable hai";
+console.log(abcHehe);
+
+const achaJee = "Main nahi bataon ga.";
+console.log(achaJee);
