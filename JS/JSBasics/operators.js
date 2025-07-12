@@ -6,4 +6,6 @@ console.log(x * y);
 console.log(x - y);
 console.log(x / y);
 console.log(x ** y);
-console.log(10%3)
+console.log(10 % 3);
+
+// Bas operators yahin tak hi tha.
