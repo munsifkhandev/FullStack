@@ -39,3 +39,10 @@ let userInfo = {
   CGPA: 3.25,
 };
 console.log(userInfo);
+
+let influ1 = {
+  insta: 8000,
+  fb: 1299,
+  x: 1313,
+};
+console.log(influ1);
