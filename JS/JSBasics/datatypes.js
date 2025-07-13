@@ -46,3 +46,10 @@ let influ1 = {
   x: 1313,
 };
 console.log(influ1);
+
+let influ2 = {
+  insta: 1000,
+  fb: 1000,
+  x: 1000,
+};
+console.log(influ2);
