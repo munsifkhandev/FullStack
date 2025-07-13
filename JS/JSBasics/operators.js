@@ -44,3 +44,18 @@ console.log(s);
 let t = 100;
 t /= 4;
 console.log(t);
+
+// Logical Operators :
+
+console.log("This is the and operator for false and false :", false && false);
+console.log("This is the and operator for false and true :", false && true);
+console.log("This is the and operator for true and false :", true && false);
+console.log("This is the and operator for true and true :", true && true);
+
+console.log("This is the or operator for false and false :", false || false);
+console.log("This is the or operator for false and true :", false || true);
+console.log("This is the or operator for true and false :", true || false);
+console.log("This is the or operator for true and true :", true || true);
+
+console.log("This is the not operator for true :", !true);
+console.log("This is a not operator for false :", !false);
