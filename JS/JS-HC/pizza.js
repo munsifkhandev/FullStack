@@ -12,3 +12,16 @@ if (numberofGuests <= 2) {
 } else {
   console.log("Tum log Large nahi toh multiple Pizzas mangwa lo...");
 }
+
+let guestsArrived = 7;
+let pSize;
+
+if (guestsArrived <= 2) {
+  pSize = "Small";
+} else if (guestsArrived <= 5) {
+  pSize = "Medium";
+} else {
+  pSize = "large";
+}
+
+console.log(pSize);
