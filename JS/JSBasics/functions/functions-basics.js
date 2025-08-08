@@ -9,3 +9,18 @@ function greetingsToEveryone() {
 }
 
 greetingsToEveryone();
+
+console.log(Math.sqrt(100));
+console.log(Math.sqrt(49));
+
+console.log(".........................");
+
+function isEvenOrOdd(x) {
+  if (x % 2 == 0) {
+    console.log("Even Number.....");
+  } else {
+    console.log("Odd Number.....");
+  }
+}
+isEvenOrOdd(12);
+isEvenOrOdd(9);
