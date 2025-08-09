@@ -9,3 +9,17 @@ if (number % 2 == 0) {
 } else {
   console.log("It is a Odd Number...");
 }
+
+// Q) Find the Minimum among the following using If Else statements....
+
+let a = 12;
+let b = 7;
+let c = 9;
+
+if (a < b && a < c) {
+  console.log("This is your Answer:", a);
+} else if (b < a && b < c) {
+  console.log("This is your Answer : ", b);
+} else {
+  console.log("Lessgooo :", c);
+}
