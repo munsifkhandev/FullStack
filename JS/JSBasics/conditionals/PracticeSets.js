@@ -35,3 +35,19 @@ if (x + y > z && y + z > x && x + z > y) {
 } else {
   console.log("No, we cant form a triangle...");
 }
+
+// Check what type of Triangle it is:
+
+let num1 = 9;
+let num2 = 8;
+let num3 = 8;
+
+if (num1 == num2 && num2 == num3 && num1 == num3) {
+  console.log("Its a equaliteral triangle");
+} else if (num1 != num2 && num2 != num3 && num1 != num3) {
+  console.log("Its a scalar Triangle");
+} else {
+  console.log("Isoceles");
+}
+
+console.log("Munsif Khan");
