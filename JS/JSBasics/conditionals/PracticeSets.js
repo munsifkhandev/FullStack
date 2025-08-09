@@ -23,3 +23,15 @@ if (a < b && a < c) {
 } else {
   console.log("Lessgooo :", c);
 }
+
+// Q) Find whether the diagram is triangle or not....
+
+let x = 4,
+  y = 9,
+  z = 7;
+
+if (x + y > z && y + z > x && x + z > y) {
+  console.log("Yess, we can form a triangle...");
+} else {
+  console.log("No, we cant form a triangle...");
+}
