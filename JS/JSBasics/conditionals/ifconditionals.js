@@ -30,3 +30,20 @@ if (userSignedIn == true && isPaidUser == true) {
 } else {
   console.log("Bhai Package krwao tabhi ana.");
 }
+
+//--------------------------------------------------------------------
+
+console.log("If Statements");
+
+if (12 > 5) {
+  console.log("Yesss, Its True...");
+}
+
+let isPrimeMember = true;
+
+if (isPrimeMember) {
+  console.log("Enjoy the Content.....");
+} else {
+  console.log("Buy yourself a Package... ");
+}
+console.log("End....");
