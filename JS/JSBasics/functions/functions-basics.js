@@ -35,3 +35,5 @@ function multiply(a, b) {
   console.log(a * b);
 }
 multiply(7, 4);
+
+console.log("---the end----");
