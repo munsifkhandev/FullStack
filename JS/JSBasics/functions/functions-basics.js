@@ -38,4 +38,9 @@ function multiply(a, b) {
 }
 multiply(7, 4);
 
+function square(number) {
+  return number * number;
+}
+let result = square(9);
+console.log(result);
 console.log("---the end----");
