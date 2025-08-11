@@ -56,3 +56,9 @@ function numChecking(x) {
 const answer = numChecking(22);
 console.log(answer);
 
+function sumTwo(a, b) {
+  return a + b;
+}
+
+let finalBoss = sumTwo(47, 91);
+console.log(finalBoss);
