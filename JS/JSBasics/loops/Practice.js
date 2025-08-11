@@ -1,9 +1,10 @@
 // Q) Write a Program to Print all the number from 1 to 10.
 
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
+let hehe = 1;
+while (hehe <= 20) {
+  console.log("While Loop: ", hehe);
+  hehe += 1;
 }
-
 // Q) Write a Program to calculate sum all the number from 1 to 10.
 
 let ans = 0;
@@ -27,4 +28,30 @@ let abc = 20;
 while (abc >= 1) {
   console.log(abc);
   abc -= 1;
+}
+
+console.log("--------------for loop---------------");
+
+// Q Print numbers using for loop
+
+for (let p = 1; p <= 20; p++) {
+  console.log("This is for loop: ", p);
+}
+
+let mySum = 0;
+for (let i = 1; i <= 10; i++) {
+  mySum += i;
+}
+console.log(mySum, "This is sum");
+
+for (let i = 1; i <= 25; i++) {
+  if (i % 2 == 0) {
+    console.log("Even Numbers: ", i);
+  } else if (i % 2 != 0) {
+    console.log("Odd Numbers :", i);
+  }
+}
+
+for (i = 2; i <= 25; i += 2) {
+  console.log(i);
 }
