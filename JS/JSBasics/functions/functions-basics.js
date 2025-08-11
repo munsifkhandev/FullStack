@@ -44,3 +44,15 @@ function square(number) {
 let result = square(9);
 console.log(result);
 console.log("---the end----");
+
+function numChecking(x) {
+  if (x % 2 == 0) {
+    return "even";
+  } else {
+    return "odd";
+  }
+}
+
+const answer = numChecking(22);
+console.log(answer);
+
