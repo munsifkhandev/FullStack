@@ -62,3 +62,8 @@ function sumTwo(a, b) {
 
 let finalBoss = sumTwo(47, 91);
 console.log(finalBoss);
+
+function add(x, y = 11, z) {
+  return x + y + z;
+}
+console.log(add(19, 33, 22));
