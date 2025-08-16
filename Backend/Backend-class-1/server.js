@@ -17,3 +17,16 @@ app.post("/api/cars", (req, res) => {
   console.log(brand);
   res.send("car submitted successfully.");
 });
+
+const mongoose = require("mongoose");
+mongoose
+  .connect("mongodb://localhost:27017/myDatabase", {
+    useNewurlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    console.log("DB Connected.");
+  })
+  .catch((error) => {
+    console.log("Error aagya.");
+  });
